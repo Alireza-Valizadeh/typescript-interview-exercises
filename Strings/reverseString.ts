@@ -3,7 +3,7 @@ Interviewer:
 Please write a function that reverses any given strings.
 */
 
-function reverseString_1(input: string): string {
+export function reverseString_1(input: string): string {
   return input.split("").reverse().join("");
 }
 
